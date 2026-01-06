@@ -1,5 +1,5 @@
 # Pipeline d'Analyse des Ventes Automobiles en Temps Réel
-### Kafka (Docker) | PySpark Structured Streaming | MariaDB
+### Kafka (Docker) | PySpark Structured Streaming | ClickHouse
 
 ## 1. Présentation du Projet
 Ce projet implémente un cycle complet d'ingénierie des données (End-to-End). Il simule un flux de données réelles en utilisant un Producteur Python qui envoie des messages vers un cluster Kafka conteneurisé, et un Consommateur PySpark qui transforme ces données en un Schéma en Étoile (Star Schema) stocké dans MariaDB.
